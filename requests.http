@@ -1,0 +1,9 @@
+### 1. Добавить вопрос (POST)
+POST http://localhost:8080/exam/java/add?question=Что такое JVM?&answer=Виртуальная машина Java
+Content-Type: application/json
+
+### 2. Получить все вопросы (GET)
+GET http://localhost:8080/exam/java
+
+### 3. Получить 2 случайных вопроса для экзамена (GET)
+GET http://localhost:8080/exam/get/2
